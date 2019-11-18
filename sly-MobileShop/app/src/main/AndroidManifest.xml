@@ -3,14 +3,16 @@
     package="com.example.sly_mobileshop">
 
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:name=".common.MobileShopApp"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/shop"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:roundIcon="@mipmap/shop"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.SplashActivity">
@@ -23,10 +25,12 @@
         <activity android:name=".activity.AdActivity"/>
         <activity android:name=".activity.MainActivity"/>
         <activity android:name=".activity.LoginActivity"/>
+
         <activity android:name=".activity.MyOrderActivity"/>
         <activity android:name=".activity.MyCollectActivity"/>
         <activity android:name=".activity.MyAddressActivity"/>
         <activity android:name=".activity.ChangePwdActivity"/>
+
         <activity android:name=".activity.GoodsListActivity"/>
         <activity android:name=".activity.GoodsDetailActivity"/>
     </application>

@@ -34,7 +34,7 @@ public class AdActivity extends BaseActivity {
             }
         });
         ImageView imageView = (ImageView)findViewById(R.id.iv_image);
-        String url = "https://www.baidu.com/img/bd_logo1.png";
+        String url = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574071404844&di=5f2e58450d9161674467dd116c386d55&imgtype=0&src=http%3A%2F%2Frs.0.gaoshouyou.com%2Fi%2F17%2Fcb%2Fa417f235a6cb1dc0431cabbda0d14b88.jpg";
         ImageLoader.getInstance().displayImage(url, imageView, new ImageLoadingListener() {
             @Override
             public void onLoadingStarted(String imageUri, View view) {

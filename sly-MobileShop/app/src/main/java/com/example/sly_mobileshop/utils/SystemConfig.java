@@ -1,5 +1,11 @@
 package com.example.sly_mobileshop.utils;
 
+
+
+
+
+
+
 public class SystemConfig {
     private static final String IS_LOGIN_KEY = "is_login";
     private static final String LOGIN_USER_NAME_KEY = "login_user_name";
@@ -37,3 +43,6 @@ public class SystemConfig {
         setLoginUserEmail("");
     }
 }
+
+
+
